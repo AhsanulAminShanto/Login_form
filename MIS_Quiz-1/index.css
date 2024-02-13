@@ -1,0 +1,127 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3498db;
+    margin-top:70px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.left-text{
+    display: flex;
+    color: white;
+    font-weight: bold;
+
+}
+.left-text h1{
+    font-size: 80px;
+    display: block;
+    margin-top: 12%;
+}
+.straigt-line{
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: white;
+    width: 8px;
+    height: 280px;
+    border-radius: 5px;
+    margin-right: 9px;
+    display: flex;
+}
+.form-background {
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+    color: #171717;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.login-line {
+    text-align: left;
+    margin: 0px -40px;
+}
+
+.login-line hr {
+    border: none; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin: 0; 
+    text-align: left;
+    margin-bottom: 15px;
+}
+/*.login-form hr {
+    width: 100%;
+    text-align: left;
+    margin-top: -15px;
+}*/
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+.input-group hr {
+   margin-top: -10px;
+}
+
+.form-footer {
+    text-align: center;
+}
+
+.forgot-password {
+    color: #808080;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #1c8fdb;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login-form p {
+    color: #000000;
+}
+
+.login-form p a {
+    color: #0c9dfd;
+    text-decoration: none;
+}
